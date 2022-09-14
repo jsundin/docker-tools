@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:focal
 
 RUN apt update --fix-missing && \
     DEBIAN_FRONTEND=noninteractive apt install -y build-essential flex libexpat1-dev libxml2-utils libssl-dev libtool make pkg-config zlib1g-dev git wget && \
